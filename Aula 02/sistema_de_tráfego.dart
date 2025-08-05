@@ -51,6 +51,5 @@ void main(){
         break;
       default:
         ("opções invalidas");
-        break;
   }
 }
