@@ -38,18 +38,19 @@ void main(){
 
     switch(opcao){
       case 1:
-        double a_pagar = (multa * 0.10) - multa;
-        print("O valor do à pagar é ${a_pagar}");
+        double a_pagar = multa - (multa * 0.10) ;
+        print("${nome} O valor do à pagar é ${a_pagar}");
         break;
       case 2:
         double a_pagar = multa / 2;
-        print("Neste mês você vai pagar ${a_pagar} reais e no proximo ${a_pagar} reais");
+        print("${nome} Neste mês você vai pagar ${a_pagar} reais e no proximo ${a_pagar} reais");
         break;
       case 3: 
         double a_pagar = (multa * 0.10) + multa;
-        print("O valor do à pagar é ${a_pagar}");
+        print("${nome} O valor do à pagar é ${a_pagar}");
         break;
       default:
         ("opções invalidas");
+        break;
   }
 }
