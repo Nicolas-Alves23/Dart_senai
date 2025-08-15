@@ -8,7 +8,6 @@ void main(){
   while (nome == null || nome.trim().isEmpty) {
     print("dados incorretos");
     nome = stdin.readLineSync();
-    
   }
   print("Logado com sucesso");
 }
