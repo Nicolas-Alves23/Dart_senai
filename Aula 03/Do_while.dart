@@ -7,7 +7,7 @@ void main(){
     Me informe a forma de pagamento:
             1 - Credito
             2 - Debito
-            3- Pix
+            3-  Pix
  """;
   do {
     print(msg);

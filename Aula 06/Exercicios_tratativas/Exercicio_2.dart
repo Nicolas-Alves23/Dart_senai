@@ -11,7 +11,6 @@ Qual é o método de pagamento?
 Escolha de 1 à 4
 """;
 
-  // Loop para validar o valor da compra
   while (valor == null || valor <= 0) {
     stdout.write("Digite o valor: R\$");
     String? input = stdin.readLineSync();
@@ -27,7 +26,7 @@ Escolha de 1 à 4
 
   print("Valor digitado: R\$$valor");
 
-  // Loop para validar a forma de pagamento
+
   int escolha = 0;
   do {
     print(menu);
@@ -45,7 +44,7 @@ Escolha de 1 à 4
   print("Tchauuu");
 }
 
-// Função para retornar a descrição do pagamento
+
 String opcaoPagamento(int escolha) {
   switch (escolha) {
     case 1:
